@@ -1,0 +1,260 @@
+﻿@import "_config.scss";
+
+header {
+    position: relative;
+    height: 90px;
+
+    .block {
+        position: relative;
+        display: block;
+        background: -webkit-linear-gradient(yellow, orange);
+        height: 90px;
+        opacity: 0.5;
+    }
+
+    .logo {
+        color: $white;
+        position: absolute;
+        top: 50%;
+        left: 45.55%;
+        @include translateY(-50%);
+    }
+
+    nav,
+    nav ul,
+    nav ul li {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        @include translateY(-50%);
+
+        ul li {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 10px;
+
+            &.last {
+                margin: 0;
+            }
+
+            a {
+                font-size: 20px;
+                line-height: normal;
+                color: $white;
+            }
+
+            .dropbtn {
+                font-size: 19px;
+                line-height: normal;
+                color: $white;
+
+                &:hover {
+                    color: $red;
+                    @include transition (.4s ease-in-out);
+                }
+            }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: blue;
+                min-width: 150px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .drop-down-content a {
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        }
+    }
+
+    nav2,
+    nav2 u2,
+    nav2 u2 li2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav2 {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        @include translateY(-50%);
+
+        u2 li2 {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 10px;
+
+            &.last {
+                margin: 0;
+            }
+
+            a {
+                font-size: 20px;
+                line-height: normal;
+                color: $white;
+            }
+        }
+      }
+    }
+
+        .container-fluid {
+
+            h1 {
+                color: $white;
+                text-align: center;
+                font-size: 50px;
+            }
+
+            p1 {
+                color: $white;
+                text-align: center;
+            }
+
+            p2 {
+                color: $white;
+            }
+
+            p3 {
+                color: $white;
+                line-height: 40px;
+            }
+
+            u1 {
+                line-height: 22px;
+            }
+
+            p4 {
+                color: $white;
+                line-height: 40px;
+            }
+
+            u2 {
+                line-height: 22px;
+            }
+
+            p5 {
+                color: $white;
+                line-height: 40px;
+                margin-left: 0px;
+            }
+
+            p6 {
+                color: $white;
+                line-height: 40px;
+                margin-left: 5px;
+            }
+
+            p7 {
+                color: $white;
+                line-height: 40px;
+                margin-left: 10px;
+            }
+
+            p8 {
+                color: $white;
+                line-height: 40px;
+                margin-left: 5px;
+            }
+
+            @media screen and (min-width: 700px) {
+                .container-fluid br {
+                    display: none;
+                }
+            }
+        }
+
+        body {
+            background: url('https://wallpapercave.com/wp/wp64096.jpg') no-repeat center center fixed;
+            background-size: cover;
+            overflow: auto;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0%;
+            display: block;
+            background-color: black;
+            color: white;
+            height: 60px;
+            width: auto;
+
+            .logo {
+                position: absolute;
+                top: 50%;
+                left: 15px;
+                @include translateY(-50%);
+            }
+
+            nav,
+            nav ul,
+            nav ul li {
+                margin: 0;
+                padding: 0;
+            }
+
+            nav {
+                position: absolute;
+                top: 50%;
+                right: 15px;
+                @include translateY(-50%);
+
+                ul li {
+                    list-style-type: none;
+                    display: inline-block;
+                    margin-right: 10px;
+
+                    &.last {
+                        margin: 0;
+                    }
+
+                    a {
+                        font-size: 19px;
+                        line-height: normal;
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+.block {
+    position: relative;
+    display: block;
+    background: -webkit-linear-gradient(yellow, orange);
+    height: 90px;
+    opacity: 0.5;
+
+    audio{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.Download Button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
