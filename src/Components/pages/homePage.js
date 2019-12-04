@@ -6,7 +6,7 @@ class Homepage extends Component {
             <div className="container-fluid">
 
                 <h1>
-                    Welcome to my website!
+                    Welcome To My Website!
                 </h1>
 
                 <p1>

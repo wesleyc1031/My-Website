@@ -6,7 +6,7 @@ class Contacts extends Component {
             <div className="container-fluid">
 
                 <h1>
-                    Contact information:
+                    Contact Information
                 </h1>
 
                 <p3>
