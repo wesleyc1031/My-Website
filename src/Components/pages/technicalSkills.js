@@ -9,13 +9,16 @@ class TechnicalSkills extends Component {
                     Technical Skills
                 </h1>
 
-                <p2>
+                <div class= "centerText">
                     My name is Wesley Chan. I just graduated from New York Institute of Technology and I'm currently looking for a full time job as a Front End Engineer. <br />
+                    <div class="verticalDivider" />
+                    <button class="button"> <a href="Resume.pdf" target="_blank">View My Resume </a> </button>
+                    <div class="horizontalDivider" />
+                    <button class="button"> <a href="Resume.pdf" download>Download My Resume </a> </button>  <br />
+                </div>
 
+                <p2>
                     <p3>
-                        <button class="Download Button"> <a href="Resume.pdf" target="_blank">View My Resume </a> </button> <br />
-                        <button class="Download Button"> <a href= "Resume.pdf" download>Download My Resume </a> </button> <br />
-
                         Here are my technical skills: <br />
                     </p3>
 

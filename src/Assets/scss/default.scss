@@ -126,7 +126,6 @@ header {
 
             p1 {
                 color: $white;
-                text-align: center;
             }
 
             p2 {
@@ -248,13 +247,26 @@ header {
     }
 }
 
-.Download Button {
-    background-color: #4CAF50; /* Green */
-    border: none;
+.button {
+    padding: 3px;
+    cursor: pointer;
     color: white;
-    padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.centerText {
+    color: $white;
+    text-align: center;
+}
+
+.horizontalDivider {
+    width: 20px;
+    display: inline-block;
+}
+
+.verticalDivider {
+        height: 30px;
+        display: inline-block;
 }
