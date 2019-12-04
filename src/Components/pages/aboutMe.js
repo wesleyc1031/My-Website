@@ -21,17 +21,17 @@ class AboutMe extends Component {
 
                     <u1>
                         <li>Java (4 years of experience)</li>
-                        <li>Javascript (5 months of experience)</li>
+                        <li>Javascript (7 months of experience)</li>
                         <li>HTML (2 years of experience)</li>
                         <li>CSS (2 years of experience)</li>
                         <li>PHP (1 year of experience)</li>
-                        <li>React (5 months of experience)</li>
-                        <li>SASS (5 months of experience)</li>
-                        <li>Gulp (5 months of experience)</li>
+                        <li>React (7 months of experience)</li>
+                        <li>SASS (7 months of experience)</li>
+                        <li>Gulp (7 months of experience)</li>
                         <li>SQL (1 year of experience)</li>
                         <li>XML (5 months of experience)</li>
-                        <li>Node.js (5 months of experience)</li>
-                        <li>Bootstrap (5 months of experience)</li>
+                        <li>Node.js (7 months of experience)</li>
+                        <li>Bootstrap (7 months of experience)</li>
                     </u1>
                 </p2>
 
@@ -39,7 +39,7 @@ class AboutMe extends Component {
                         Here are my experience using the following software:
                     
                     <u2>
-                        <li>Microsoft Visual Studio (5 months of experience)</li>
+                        <li>Microsoft Visual Studio (7 months of experience)</li>
                         <li>Eclipse (2 years of experience)</li>
                         <li>MySQL (1 year of experience)</li>
                         <li>Android Studio (5 months of experience)</li>
