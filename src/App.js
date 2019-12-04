@@ -10,7 +10,7 @@ import {
 import Header from './Components/headerComponent/header';
 import Footer from './Components/footerComponent/footer';
 import Homepage from './Components/pages/homePage';
-import AboutMe from './Components/pages/aboutMe';
+import TechnicalSkills from './Components/pages/technicalSkills';
 import Education from './Components/pages/education';
 import Experience from './Components/pages/experience';
 import Projects from './Components/pages/projects';
@@ -30,7 +30,7 @@ class App extends Component {
 
                     <Route exact path='/' component={Homepage} />
 
-                    <Route exact path='/AboutMe' component={AboutMe} />
+                    <Route exact path='/TechnicalSkills' component={TechnicalSkills} />
 
                     <Route exact path='/Education' component={Education} />
 

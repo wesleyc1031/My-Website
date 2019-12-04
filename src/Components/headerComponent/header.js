@@ -47,7 +47,7 @@ class Header extends Component {
                             <div class="dropbtn">About Me</div>
 
                             <div class="dropdown-content">
-                                    <Link to="/AboutMe">Technical Skills<br /></Link>              
+                                    <Link to="/TechnicalSkills">Technical Skills<br /></Link>              
                                     <Link to="/Education">Education<br /></Link>
                                     <Link to="/Experience">Experience<br /></Link>
                                     <Link to="/Projects">Projects<br /></Link>
