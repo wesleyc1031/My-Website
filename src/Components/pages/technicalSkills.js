@@ -13,7 +13,7 @@ class TechnicalSkills extends Component {
                     My name is Wesley Chan. I just graduated from New York Institute of Technology and I'm currently looking for a full time job as a Front End Engineer. <br />
 
                     <p3>
-                        <button class="Download Button"> <a href="Resume.pdf" download>View My Resume </a> </button> <br />
+                        <button class="Download Button"> <a href="Resume.pdf" target="_blank">View My Resume </a> </button> <br />
                         <button class="Download Button"> <a href= "Resume.pdf" download>Download My Resume </a> </button> <br />
 
                         Here are my technical skills: <br />
